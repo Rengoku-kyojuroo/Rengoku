@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d1d7d883;
+    background-image: url(../images/OIP.jpeg); 
+    background-position: center;
+    background-size: cover;
+}
+
+.Di {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.Us, .Em, .Pa {
+    padding: 20px;
+}
+
+
+input[type="text"], input[type="password"], input[type="Email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold;
+}
